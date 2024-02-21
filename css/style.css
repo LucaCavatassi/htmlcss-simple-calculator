@@ -23,7 +23,21 @@ img{
     box-shadow: inset 5px 0px 10px rgb(208, 206, 206);
 }
 
+/* HEADER */
 .header{
     background-color: rgb(238 238 238);
     border-radius: 10px ;
+}
+
+/* SCREEN */
+.screen{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.results{
+    color: greenyellow;
+    font-size: 35px;
 }
