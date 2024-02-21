@@ -46,6 +46,7 @@ img{
 .buttons{
     display: flex;
     justify-content: space-evenly;
+    margin: 10px
 }
 .numbersbox{
     width: 200px;
@@ -55,8 +56,8 @@ img{
 }
 .operationsbox{
     width: 50px;
-    border: 5px solid red;
     flex-grow: 1;
+    margin: 10px;
 }
 
 .number{
@@ -69,14 +70,31 @@ img{
 .number span{
     font-family: 'Michroma', sans-serif;
     background-color: lightgray;
-    border: 1px solid gray;
     border-radius: 10px;
     text-align: center;
     width: calc(100% / 3 - 10px);
     margin: 5px;
-    padding: 20px;
+    padding: 15px 20px;
 }
 
 .number span:nth-child(10){
     flex-grow: 1;
 }
+
+
+.operation{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+
+.operation span{
+    font-family: 'Michroma', sans-serif;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
