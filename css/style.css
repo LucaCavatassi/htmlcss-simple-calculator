@@ -27,6 +27,20 @@ img{
     border-radius: 10px ;
 }
 
+.buttonsgrey{
+    background-color: lightgray;
+}
+.orange{
+    background-color: orange;
+}
+.buttonsgreen{
+    background-color: rgb(118 168 176);
+}
+
+.whitetext{
+    color: white;
+}
+
 /* SCREEN */
 .screen{
     background-color: black;
@@ -42,9 +56,10 @@ img{
 
 /* ALL BUTTONS */
 .buttons{
+    font-family: 'Michroma', sans-serif;
     display: flex;
     justify-content: space-evenly;
-    margin: 10px
+    margin: 10px;
 }
 
 /* BUTTONS SECTIONS */
@@ -52,12 +67,12 @@ img{
     width: 200px;
     display: flex;
     flex-grow: 5;
-    margin: 10px;
+    margin: 5px;
 }
 .operationsbox{
     width: 50px;
     flex-grow: 1;
-    margin: 10px;
+    margin: 5px;
 }
 
 /* NUMBERS */
@@ -69,9 +84,6 @@ img{
 }
 
 .number span{
-    font-family: 'Michroma', sans-serif;
-    background-color: lightgray;
-    border-radius: 10px;
     text-align: center;
     width: calc(100% / 3 - 10px);
     margin: 5px;
@@ -92,8 +104,6 @@ img{
 
 .operation span{
     font-family: 'Michroma', sans-serif;
-    background-color: lightgray;
-    border-radius: 10px;
     text-align: center;
     padding: 10px;
 }
